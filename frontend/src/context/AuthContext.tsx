@@ -46,7 +46,6 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     checkStatus();
   }, []);
 
-
   const login = async (email: string, password: string) => {
     const data = await loginUser(email, password);
     if (data) {

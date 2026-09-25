@@ -20,7 +20,9 @@ const Signup = () => {
       await auth?.signup(name, email, password);
       toast.success("Signed Up Successfully", { id: "signup" });
     } catch (error) {
-      toast.error(getApiErrorMessage(error, "Sign up failed"), { id: "signup" });
+      toast.error(getApiErrorMessage(error, "Sign up failed"), {
+        id: "signup",
+      });
     }
   };
   useEffect(() => {

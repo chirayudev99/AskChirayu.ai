@@ -44,10 +44,25 @@ const ChatItem = ({
         color: "#eef7f2",
       }}
     >
-        <Avatar sx={{ ml: "0", bgcolor: "#5ee8d0", color: "#071522", width: 34, height: 34, fontSize: 14 }}>C</Avatar>
+      <Avatar
+        sx={{
+          ml: "0",
+          bgcolor: "#5ee8d0",
+          color: "#071522",
+          width: 34,
+          height: 34,
+          fontSize: 14,
+        }}
+      >
+        C
+      </Avatar>
       <Box>
         {!messageBlocks && (
-          <Typography sx={{ fontSize: "16px", lineHeight: 1.65, whiteSpace: "pre-wrap" }}>{content}</Typography>
+          <Typography
+            sx={{ fontSize: "16px", lineHeight: 1.65, whiteSpace: "pre-wrap" }}
+          >
+            {content}
+          </Typography>
         )}
         {messageBlocks &&
           messageBlocks.length &&
@@ -57,8 +72,17 @@ const ChatItem = ({
                 {block}
               </SyntaxHighlighter>
             ) : (
-              <Typography sx={{ fontSize: "16px", lineHeight: 1.65, whiteSpace: "pre-wrap" }} key={block}>{block}</Typography>
-            )
+              <Typography
+                sx={{
+                  fontSize: "16px",
+                  lineHeight: 1.65,
+                  whiteSpace: "pre-wrap",
+                }}
+                key={block}
+              >
+                {block}
+              </Typography>
+            ),
           )}
       </Box>
     </Box>
@@ -73,10 +97,25 @@ const ChatItem = ({
         color: "#eef7f2",
       }}
     >
-      <Avatar sx={{ ml: "0", bgcolor: "#ffb870", color: "#071522", width: 34, height: 34, fontSize: 14 }}>Y</Avatar>
+      <Avatar
+        sx={{
+          ml: "0",
+          bgcolor: "#ffb870",
+          color: "#071522",
+          width: 34,
+          height: 34,
+          fontSize: 14,
+        }}
+      >
+        Y
+      </Avatar>
       <Box>
         {!messageBlocks && (
-          <Typography sx={{ fontSize: "16px", lineHeight: 1.65, whiteSpace: "pre-wrap" }}>{content}</Typography>
+          <Typography
+            sx={{ fontSize: "16px", lineHeight: 1.65, whiteSpace: "pre-wrap" }}
+          >
+            {content}
+          </Typography>
         )}
         {messageBlocks &&
           messageBlocks.length &&
@@ -86,8 +125,17 @@ const ChatItem = ({
                 {block}
               </SyntaxHighlighter>
             ) : (
-              <Typography sx={{ fontSize: "16px", lineHeight: 1.65, whiteSpace: "pre-wrap" }} key={block}>{block}</Typography>
-            )
+              <Typography
+                sx={{
+                  fontSize: "16px",
+                  lineHeight: 1.65,
+                  whiteSpace: "pre-wrap",
+                }}
+                key={block}
+              >
+                {block}
+              </Typography>
+            ),
           )}
       </Box>
     </Box>

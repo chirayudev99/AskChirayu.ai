@@ -1,18 +1,14 @@
-import { useEffect } from "react"
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const NotFound = () => {
-      const navigate = useNavigate();
-
+  const navigate = useNavigate();
 
   useEffect(() => {
-    navigate("/")
-  }, [])
-  
+    navigate("/");
+  }, []);
 
-  return (
-    <div>NotFound</div>
-  )
-}
+  return <div>NotFound</div>;
+};
 
-export default NotFound
+export default NotFound;

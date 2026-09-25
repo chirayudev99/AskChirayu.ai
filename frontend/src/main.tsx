@@ -6,8 +6,10 @@ import { ThemeProvider, createTheme } from '@mui/material'
 import { BrowserRouter } from 'react-router-dom'
 import axios from 'axios'
 import { Toaster } from 'react-hot-toast'
+const API_URL = import.meta.env.VITE_API_URL;
 
-axios.defaults.baseURL = "http://localhost:5000/api/v1"
+
+axios.defaults.baseURL = API_URL
 axios.defaults.withCredentials = true
 const theme = createTheme({
   typography:{
