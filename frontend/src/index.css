@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  background: #071522;
+  color: #eef7f2;
+}
+
+button, input, textarea { font: inherit; }
+a { color: inherit; }
+.image-inverted {
+  filter: invert(100%);
+}
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+  border-color: #5ee8d0 !important;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-enter { animation: fade-up 500ms ease both; }
