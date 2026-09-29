@@ -85,31 +85,28 @@ const Home = () => {
           <Box className="feature-card">
             <FiBarChart2 size={22} color="#5ee8d0" />
             <Typography variant="h6" sx={{ mt: 3, fontWeight: 600 }}>
-              40% faster
+              Built to scale
             </Typography>
             <Typography sx={{ mt: 1, lineHeight: 1.6 }}>
-              Enterprise React performance improved through profiling,
-              refactoring, and smarter state subscriptions.
+              From startup MVPs to enterprise applications, Chirayu has built maintainable systems across AI, SaaS, healthcare, fintech, and real-time products
             </Typography>
           </Box>
           <Box className="feature-card">
             <FiClock size={22} color="#5ee8d0" />
             <Typography variant="h6" sx={{ mt: 3, fontWeight: 600 }}>
-              4 hours back
+              End-to-End Engineering
             </Typography>
             <Typography sx={{ mt: 1, lineHeight: 1.6 }}>
-              A healthcare GenAI copilot that helps staff find governance and
-              regulatory information faster.
+             5+ years building products across React, Next.js, Node.js, APIs, databases, authentication, real-time systems, and AI integrations
             </Typography>
           </Box>
           <Box className="feature-card">
             <FiLayers size={22} color="#5ee8d0" />
             <Typography variant="h6" sx={{ mt: 3, fontWeight: 600 }}>
-              From MVP to scale
+              Performance
             </Typography>
             <Typography sx={{ mt: 1, lineHeight: 1.6 }}>
-              Five-plus years across AI, SaaS, fintech education, healthcare,
-              bookings, and real-time data products.
+              Delivered measurable gains including 40% faster overall performance, 30–40% lower module load times, and ~35% faster API responses
             </Typography>
           </Box>
         </Box>
